@@ -12,8 +12,11 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,100' rel='stylesheet' type='text/css'>
 
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-2.2.2min.js"></script>
     </head>
     <body>
       <!--Container Starts-->
@@ -21,45 +24,51 @@
         <!--Header Starts-->
         <header>
           <div class="row">
-            <div class="col-md-6">
-              <h2 class="site-logo">Logo</h2>
+            <div class="col-xs-6 col-sm-6 col-md-6 ">
+              <div class="site-logo">
+                <img class="img-responsive" src="img/PvG_010.png" alt="Site logo"><img>
+              </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-xs-6 col-sm-6 col-md-6 text-right text-uppercase">
               <h1 class="site-title">Udacity Project</h1>
+              <h3 class="site-description">Front-end Ninja</h3>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <hr></hr>
             </div>
           </div>
         </header><!--Header Ends-->
         <!--Main Image Starts-->
         <div class="row">
-          <div class="col-md-12">
-            <section class="main-image">
-              <img class="img-responsive" src="https://placehold.it/1150x500" alt="Main Image Placeholder"></img>
-            </section>
+          <div class="col-xs-12 col-sm-12 col-md-12">
+              <img class="img-responsive" src="https://unsplash.it/1150/500?image=0" alt="Main Image Placeholder"></img>
           </div>
         </div><!--Main Image Ends-->
         <!--Featured Work Start-->
         <div class="row">
-          <div class="col-md-12">
-            <h2 class="featured_work">Featured Work</h2>
+          <div class="col-sm-12 col-md-12">
+            <h2 class="featured-work">Featured Work</h2>
           </div>
         </div><!--Featured Work Ends -->
-        <div class="row">
-          <div class="col-md-4">
-            <img class="img-responsive" src="https://placehold.it/350X150" alt="Featured work 1"></img>
-            <h2 class="appify">Appify</h2>
-            <p><a href="https://github.com/CodinGhost">Project Link</a></p>
+        <section class="featured-work-images">
+          <div class="row text-center text-uppercase">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <img class="img-responsive" src="https://unsplash.it/600/260?image=527" alt="Featured work 1"></img>
+              <h2 class="appify">Appify</h2>
+              <p><a href="https://github.com/CodinGhost">Project Link</a></p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <img class="img-responsive" src="https://unsplash.it/600/260?image=599" alt="Featured work 1"></img>
+              <h2 class="sunflower">Misty</h2>
+              <p><a href="https://github.com/CodinGhost">Project Link</a></p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <img class="img-responsive" src="https://unsplash.it/600/260?image=881" alt="Featured work 1"></img>
+              <h2 class="space">Space</h2>
+              <p><a href="https://github.com/CodinGhost">Project Link</a></p>
+            </div>
           </div>
-          <div class="col-md-4">
-            <img class="img-responsive" src="https://placehold.it/350X150" alt="Featured work 1"></img>
-            <h2 class="sunflower">Sunflower</h2>
-            <p><a href="https://github.com/CodinGhost">Project Link</a></p>
-          </div>
-          <div class="col-md-4">
-            <img class="img-responsive" src="https://placehold.it/350X150" alt="Featured work 1"></img>
-            <h2 class="space">Space</h2>
-            <p><a href="https://github.com/CodinGhost">Project Link</a></p>
-          </div>
-        </div>
+        </section>
       </div><!--Container Ends-->
     </body>
 </html>
