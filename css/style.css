@@ -27,8 +27,8 @@ hr {
   color: #bcbbbb;
 }
 
-.modal-body p {
-  padding-top: 0.75em;
+.modal-body article {
+  padding-top: 1.2em;
 }
 
 @media screen and (max-width: 48em) {
