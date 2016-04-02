@@ -27,7 +27,11 @@ hr {
   color: #bcbbbb;
 }
 
-@media screen and (max-width: 767px) {
+.modal-body p {
+  padding-top: 0.75em;
+}
+
+@media screen and (max-width: 48em) {
   .featured-work-images .img-responsive {
     margin-left: auto;
     margin-right: auto;
@@ -49,7 +53,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 461px) {
+@media screen and (max-width: 29em) {
   .site-title {
     font-size: 1.5rem;
   }
